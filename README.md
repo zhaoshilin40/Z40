@@ -8,6 +8,10 @@
 |---|---|
 | [`desktop-control`](skills/desktop-control/) | 让 AI 能操作 Windows 桌面：找窗口、点按钮、填表单、读屏幕内容、截图。靠无障碍元素定位，不靠鼠标坐标（坐标点击在这台电脑上无效） |
 | [`ppt-master`](skills/ppt-master/) | AI 生成可编辑的 PPTX 演示文稿。也支持重建页面视觉、做品牌/样式/版式模板、填充原生 PPTX 模板、美化成品 PPT、加旁白和动画 |
+| [`scenes-gathered-zine-v1-3`](skills/scenes-gathered-zine-v1-3/) | 把一张照片做成竖版 3:5「实景拼贴」杂志海报：真实照片 + 抽象插画场 + 一个高饱和色作结构 + 手撕纸纤维边 + 一行小字。枝叶等细碎纹理会被大幅压缩成几块安静的大形 |
+| [`scene-distillation-zine-v1-3`](skills/scene-distillation-zine-v1-3/) | 把照片提炼成极简 zine 海报：只用源自原图的插画、艺术命题、情绪张力、大量留白与高彩度配色，文字的语言/数量/位置/字号完全交给表达判断 |
+| [`morandi-cinematic-poster-zeejay`](skills/morandi-cinematic-poster-zeejay/) | 把照片做成莫兰迪色系电影海报：胶片式主标题、可选诗意副题与标语、氛围元数据、留白排版、透视对齐、主体局部遮挡 |
+| [`scenes-gathered-zine-live-flow-v1-0`](skills/scenes-gathered-zine-live-flow-v1-0/) | 上面 zine 的完整流程版：出静态海报 + 带自定义叙事撕纸路径的 Apple 实况照片 ZIP，并可交给本机 Live Photo 导入器（仅 macOS 导入器） |
 
 ## 一键安装到本机
 
@@ -64,3 +68,13 @@ C:\Users\<用户名>\.dsh\skills\ppt-master   ──junction──▶   D:\ai\Z4
   ppt-master 的配图 API key 放在 `C:\Users\<用户名>\.ppt-master\.env`，不在这个仓库里。
 - 仓库是 **私有** 的，只有自己能看。
 - `ppt-master` 体积较大（约 37 MB，主要是图标和音效模板），克隆会稍慢。
+
+## 许可证
+
+| Skill | 来源 | 许可 |
+|---|---|---|
+| `desktop-control` | 自建 | 自用 |
+| `ppt-master` | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) v6.7.0 | MIT（保留 `LICENSE`） |
+| `scenes-gathered-zine-v1-3` 等 4 个 zine 技能 | [Zeejay0/gathered-scenes-zine-skill](https://github.com/Zeejay0/gathered-scenes-zine-skill) | **个人非商业许可 v1.0**（见各目录 `LICENSE`，非 MIT） |
+
+> zine 系列仅限个人非商业使用；如需再分享，必须保留原许可证与署名、标注修改、且不得收费。
