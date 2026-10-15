@@ -1,0 +1,40 @@
+# ---- 密钥：绝对不要提交 ----
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+credentials.json
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Node ----
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+
+# ---- 系统 / 编辑器 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# ---- 临时产物 ----
+*.tmp
+*.log
+*.bak
+*.old
+~$*
