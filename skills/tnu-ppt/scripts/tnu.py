@@ -74,6 +74,26 @@ def ids(slide):
 
 
 # --------------------------------------------------------------- 文字写入
+# a:pPr/@algn 只认 ST_TextAlignType 这 7 个值。写成 "justify"/"center" 这类
+# 想当然的英文，python-pptx 不会报错、zip 也完好，但 PowerPoint 打开时会
+# 直接判文件损坏（0x80070570）——2026-10-19 踩过一次，排查了两小时。
+_ALGN = {
+    "l": "l", "left": "l",
+    "ctr": "ctr", "center": "ctr", "centre": "ctr",
+    "r": "r", "right": "r",
+    "just": "just", "justify": "just",
+    "dist": "dist", "distributed": "dist",
+    "thai_dist": "thai_dist",
+    "justlow": "justLow", "just_low": "justLow",
+}
+
+
+def _bad_align(val):
+    raise ValueError(
+        "align=%r 不是合法的 ST_TextAlignType；只能是 l/ctr/r/just/dist/"
+        "thai_dist/justLow（写成 justify 会让 PowerPoint 报文件损坏）" % (val,))
+
+
 def _first_nonempty_p(txBody):
     ps = txBody.findall(qn("a:p"))
     for p in ps:
@@ -154,7 +174,8 @@ def set_paras(shape, paras, size=None, bold=None, wrap=None, spacing=None,
                 pPr = p.makeelement(qn("a:pPr"), {})
                 p.insert(0, pPr)
         if align is not None:
-            pPr.set("algn", align)
+            pPr.set("algn", _ALGN.get(str(align).strip().lower(), None)
+                    or _bad_align(align))
         if spacing is not None:
             ln = pPr.find(qn("a:lnSpc"))
             if ln is None:
