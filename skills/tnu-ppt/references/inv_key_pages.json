@@ -1,0 +1,836 @@
+{
+ "file": "C:\\Users\\12806\\Desktop\\天津师范大学毕业论文汇报答辩通用ppt模板.pptx",
+ "slides": 62,
+ "canvas": [
+  13.333,
+  7.5
+ ],
+ "layouts": [
+  "首尾页版式1",
+  "目录页版式1",
+  "过渡页版式1",
+  "首尾页版式2",
+  "目录页版式2",
+  "首尾页版式3",
+  "目录页版式3",
+  "首尾页版式4",
+  "目录页版式4",
+  "过渡页版式4",
+  "内容页2",
+  "内容页1",
+  "人物介绍页-圆形",
+  "人物介绍页-半身",
+  "荣誉证书页",
+  "一段图文页",
+  "一段图文页-放大",
+  "两段内容页-左右",
+  "两段内容页-上下",
+  "两段图文页-上下",
+  "两段图文页-左右",
+  "三段内容页",
+  "三段内容页-样机",
+  "三段图文页",
+  "四段图文页",
+  "六段内容页",
+  "六段图文页",
+  "空白页"
+ ],
+ "pages": [
+  {
+   "no": 1,
+   "layout": "首尾页版式1",
+   "shapes": [
+    {
+     "shape_id": 15,
+     "name": "任意多边形: 形状 14",
+     "type": "FREEFORM (5)",
+     "geom": [
+      7.53,
+      0.0,
+      5.81,
+      7.5
+     ],
+     "wrap": true
+    },
+    {
+     "shape_id": 2,
+     "name": "组合 1",
+     "type": "GROUP (6)",
+     "geom": [
+      0.83,
+      5.32,
+      2.21,
+      0.44
+     ],
+     "children": [
+      {
+       "shape_id": 8,
+       "name": "文本框 7",
+       "type": "TEXT_BOX (17)",
+       "geom": [
+        1.09,
+        5.32,
+        1.95,
+        0.44
+       ],
+       "text": "姓名：于文清",
+       "sizes": [
+        20.0
+       ],
+       "paras": 1,
+       "wrap": true
+      },
+      {
+       "shape_id": 10,
+       "name": "Freeform 33",
+       "type": "FREEFORM (5)",
+       "geom": [
+        0.83,
+        5.39,
+        0.27,
+        0.33
+       ],
+       "wrap": null
+      }
+     ]
+    },
+    {
+     "shape_id": 12,
+     "name": "文本框 11",
+     "type": "TEXT_BOX (17)",
+     "geom": [
+      3.99,
+      5.31,
+      2.26,
+      0.44
+     ],
+     "text": "导师：师小薇",
+     "sizes": [
+      20.0
+     ],
+     "paras": 1,
+     "wrap": true
+    },
+    {
+     "shape_id": 13,
+     "name": "Group 9",
+     "type": "GROUP (6)",
+     "geom": [
+      3.66,
+      5.39,
+      0.34,
+      0.29
+     ],
+     "children": [
+      {
+       "shape_id": 14,
+       "name": "Freeform 10",
+       "type": "FREEFORM (5)",
+       "geom": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "wrap": true
+      },
+      {
+       "shape_id": 16,
+       "name": "Freeform 11",
+       "type": "FREEFORM (5)",
+       "geom": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "wrap": true
+      }
+     ]
+    },
+    {
+     "shape_id": 5,
+     "name": "图片 4",
+     "type": "PICTURE (13)",
+     "geom": [
+      0.61,
+      0.05,
+      3.15,
+      1.77
+     ]
+    },
+    {
+     "shape_id": 19,
+     "name": "文本框 18",
+     "type": "TEXT_BOX (17)",
+     "geom": [
+      0.72,
+      6.75,
+      1.95,
+      0.34
+     ],
+     "text": "勤奋严谨 自树树人",
+     "sizes": [
+      14.0
+     ],
+     "paras": 1,
+     "wrap": true
+    },
+    {
+     "shape_id": 24,
+     "name": "图片占位符 23",
+     "type": "PLACEHOLDER (14)",
+     "geom": [
+      7.77,
+      0.0,
+      5.56,
+      7.5
+     ],
+     "ph": {
+      "idx": 10,
+      "type": "PICTURE (18)"
+     }
+    },
+    {
+     "shape_id": 21,
+     "name": "文本占位符 20",
+     "type": "PLACEHOLDER (14)",
+     "geom": [
+      0.7,
+      2.66,
+      5.55,
+      0.84
+     ],
+     "ph": {
+      "idx": 11,
+      "type": "BODY (2)"
+     },
+     "text": "天津师范大学",
+     "sizes": [],
+     "paras": 1,
+     "wrap": null
+    },
+    {
+     "shape_id": 22,
+     "name": "文本占位符 21",
+     "type": "PLACEHOLDER (14)",
+     "geom": [
+      0.7,
+      3.45,
+      7.5,
+      0.84
+     ],
+     "ph": {
+      "idx": 12,
+      "type": "BODY (2)"
+     },
+     "text": "汇报答辩通用模板",
+     "sizes": [],
+     "paras": 1,
+     "wrap": null
+    }
+   ]
+  },
+  {
+   "no": 6,
+   "layout": "目录页版式2",
+   "shapes": [
+    {
+     "shape_id": 60,
+     "name": "文本框 59",
+     "type": "TEXT_BOX (17)",
+     "geom": [
+      4.94,
+      0.25,
+      1.61,
+      0.84
+     ],
+     "text": "目 录",
+     "sizes": [
+      44.0
+     ],
+     "paras": 1,
+     "wrap": true
+    },
+    {
+     "shape_id": 61,
+     "name": "文本框 8",
+     "type": "TEXT_BOX (17)",
+     "geom": [
+      4.58,
+      1.04,
+      2.3,
+      0.4
+     ],
+     "text": "CONTENTS",
+     "sizes": [],
+     "paras": 1,
+     "wrap": true
+    },
+    {
+     "shape_id": 2,
+     "name": "组合 1",
+     "type": "GROUP (6)",
+     "geom": [
+      5.07,
+      1.6,
+      0.71,
+      0.9
+     ],
+     "children": [
+      {
+       "shape_id": 4,
+       "name": "文本框 3",
+       "type": "TEXT_BOX (17)",
+       "geom": [
+        5.08,
+        1.5,
+        0.53,
+        0.71
+       ],
+       "text": "1",
+       "sizes": [
+        36.0
+       ],
+       "paras": 1,
+       "wrap": true
+      },
+      {
+       "shape_id": 45,
+       "name": "iconfont-11208-5297211",
+       "type": "FREEFORM (5)",
+       "geom": [
+        5.01,
+        1.47,
+        0.71,
+        0.9
+       ],
+       "wrap": null
+      }
+     ]
+    },
+    {
+     "shape_id": 52,
+     "name": "组合 51",
+     "type": "GROUP (6)",
+     "geom": [
+      5.07,
+      2.97,
+      0.71,
+      0.9
+     ],
+     "children": [
+      {
+       "shape_id": 53,
+       "name": "文本框 52",
+       "type": "TEXT_BOX (17)",
+       "geom": [
+        5.08,
+        1.5,
+        0.53,
+        0.71
+       ],
+       "text": "2",
+       "sizes": [
+        36.0
+       ],
+       "paras": 1,
+       "wrap": true
+      },
+      {
+       "shape_id": 54,
+       "name": "iconfont-11208-5297211",
+       "type": "FREEFORM (5)",
+       "geom": [
+        5.01,
+        1.47,
+        0.71,
+        0.9
+       ],
+       "wrap": null
+      }
+     ]
+    },
+    {
+     "shape_id": 63,
+     "name": "组合 62",
+     "type": "GROUP (6)",
+     "geom": [
+      5.07,
+      4.34,
+      0.71,
+      0.9
+     ],
+     "children": [
+      {
+       "shape_id": 66,
+       "name": "文本框 65",
+       "type": "TEXT_BOX (17)",
+       "geom": [
+        5.08,
+        1.5,
+        0.53,
+        0.71
+       ],
+       "text": "3",
+       "sizes": [
+        36.0
+       ],
+       "paras": 1,
+       "wrap": true
+      },
+      {
+       "shape_id": 73,
+       "name": "iconfont-11208-5297211",
+       "type": "FREEFORM (5)",
+       "geom": [
+        5.01,
+        1.47,
+        0.71,
+        0.9
+       ],
+       "wrap": null
+      }
+     ]
+    },
+    {
+     "shape_id": 78,
+     "name": "组合 77",
+     "type": "GROUP (6)",
+     "geom": [
+      5.07,
+      5.71,
+      0.71,
+      0.9
+     ],
+     "children": [
+      {
+       "shape_id": 79,
+       "name": "文本框 78",
+       "type": "TEXT_BOX (17)",
+       "geom": [
+        5.08,
+        1.5,
+        0.53,
+        0.71
+       ],
+       "text": "4",
+       "sizes": [
+        36.0
+       ],
+       "paras": 1,
+       "wrap": true
+      },
+      {
+       "shape_id": 80,
+       "name": "iconfont-11208-5297211",
+       "type": "FREEFORM (5)",
+       "geom": [
+        5.01,
+        1.47,
+        0.71,
+        0.9
+       ],
+       "wrap": null
+      }
+     ]
+    },
+    {
+     "shape_id": 12,
+     "name": "文本占位符 11",
+     "type": "PLACEHOLDER (14)",
+     "geom": [
+      6.18,
+      1.63,
+      5.07,
+      0.57
+     ],
+     "ph": {
+      "idx": 11,
+      "type": "BODY (2)"
+     },
+     "text": "请在此输入标题",
+     "sizes": [],
+     "paras": 1,
+     "wrap": null
+    },
+    {
+     "shape_id": 13,
+     "name": "文本占位符 12",
+     "type": "PLACEHOLDER (14)",
+     "geom": [
+      6.18,
+      2.22,
+      5.07,
+      0.26
+     ],
+     "ph": {
+      "idx": 13,
+      "type": "BODY (2)"
+     },
+     "text": "Click here to add your title",
+     "sizes": [],
+     "paras": 1,
+     "wrap": null
+    },
+    {
+     "shape_id": 14,
+     "name": "文本占位符 13",
+     "type": "PLACEHOLDER (14)",
+     "geom": [
+      6.18,
+      5.74,
+      5.07,
+      0.57
+     ],
+     "ph": {
+      "idx": 14,
+      "type": "BODY (2)"
+     },
+     "text": "请在此输入标题",
+     "sizes": [],
+     "paras": 1,
+     "wrap": null
+    },
+    {
+     "shape_id": 15,
+     "name": "文本占位符 14",
+     "type": "PLACEHOLDER (14)",
+     "geom": [
+      6.18,
+      6.33,
+      5.07,
+      0.26
+     ],
+     "ph": {
+      "idx": 15,
+      "type": "BODY (2)"
+     },
+     "text": "Click here to add your title",
+     "sizes": [],
+     "paras": 1,
+     "wrap": null
+    },
+    {
+     "shape_id": 16,
+     "name": "文本占位符 15",
+     "type": "PLACEHOLDER (14)",
+     "geom": [
+      6.18,
+      3.01,
+      5.07,
+      0.57
+     ],
+     "ph": {
+      "idx": 16,
+      "type": "BODY (2)"
+     },
+     "text": "请在此输入标题",
+     "sizes": [],
+     "paras": 1,
+     "wrap": null
+    },
+    {
+     "shape_id": 17,
+     "name": "文本占位符 16",
+     "type": "PLACEHOLDER (14)",
+     "geom": [
+      6.18,
+      3.6,
+      5.07,
+      0.26
+     ],
+     "ph": {
+      "idx": 17,
+      "type": "BODY (2)"
+     },
+     "text": "Click here to add your title",
+     "sizes": [],
+     "paras": 1,
+     "wrap": null
+    },
+    {
+     "shape_id": 18,
+     "name": "文本占位符 17",
+     "type": "PLACEHOLDER (14)",
+     "geom": [
+      6.18,
+      4.38,
+      5.07,
+      0.57
+     ],
+     "ph": {
+      "idx": 18,
+      "type": "BODY (2)"
+     },
+     "text": "请在此输入标题",
+     "sizes": [],
+     "paras": 1,
+     "wrap": null
+    },
+    {
+     "shape_id": 19,
+     "name": "文本占位符 18",
+     "type": "PLACEHOLDER (14)",
+     "geom": [
+      6.18,
+      4.97,
+      5.07,
+      0.26
+     ],
+     "ph": {
+      "idx": 19,
+      "type": "BODY (2)"
+     },
+     "text": "Click here to add your title",
+     "sizes": [],
+     "paras": 1,
+     "wrap": null
+    },
+    {
+     "shape_id": 24,
+     "name": "矩形 23",
+     "type": "AUTO_SHAPE (1)",
+     "geom": [
+      2.18,
+      2.5,
+      0.99,
+      0.56
+     ],
+     "wrap": null
+    }
+   ]
+  },
+  {
+   "no": 14,
+   "layout": "空白页",
+   "shapes": [
+    {
+     "shape_id": 3,
+     "name": "图片 2",
+     "type": "PICTURE (13)",
+     "geom": [
+      -0.01,
+      0.0,
+      13.33,
+      7.5
+     ]
+    },
+    {
+     "shape_id": 5,
+     "name": "Rectangle 11",
+     "type": "AUTO_SHAPE (1)",
+     "geom": [
+      3.05,
+      0.02,
+      10.29,
+      7.5
+     ],
+     "wrap": null
+    },
+    {
+     "shape_id": 29,
+     "name": "矩形 28",
+     "type": "AUTO_SHAPE (1)",
+     "geom": [
+      7.82,
+      4.01,
+      4.91,
+      0.99
+     ],
+     "text": "请输入您的标题",
+     "sizes": [
+      48.0
+     ],
+     "paras": 1,
+     "wrap": false
+    },
+    {
+     "shape_id": 30,
+     "name": "矩形 29",
+     "type": "AUTO_SHAPE (1)",
+     "geom": [
+      11.55,
+      2.79,
+      1.14,
+      1.2
+     ],
+     "text": "01",
+     "sizes": [
+      60.0
+     ],
+     "paras": 1,
+     "wrap": false
+    },
+    {
+     "shape_id": 6,
+     "name": "直接连接符 5",
+     "type": "LINE (9)",
+     "geom": [
+      8.66,
+      5.33,
+      3.84,
+      0.0
+     ]
+    }
+   ]
+  },
+  {
+   "no": 33,
+   "layout": "内容页1",
+   "shapes": [
+    {
+     "shape_id": 20,
+     "name": "组合 19",
+     "type": "GROUP (6)",
+     "geom": [
+      1.45,
+      1.62,
+      10.43,
+      5.06
+     ],
+     "children": [
+      {
+       "shape_id": 21,
+       "name": "矩形 20",
+       "type": "AUTO_SHAPE (1)",
+       "geom": [
+        2.01,
+        2.29,
+        9.1,
+        4.23
+       ],
+       "wrap": null
+      },
+      {
+       "shape_id": 22,
+       "name": "矩形: 剪去单角 21",
+       "type": "AUTO_SHAPE (1)",
+       "geom": [
+        1.78,
+        2.1,
+        9.22,
+        4.32
+       ],
+       "wrap": null
+      },
+      {
+       "shape_id": 23,
+       "name": "直角三角形 22",
+       "type": "AUTO_SHAPE (1)",
+       "geom": [
+        1.78,
+        2.1,
+        0.3,
+        0.29
+       ],
+       "wrap": null
+      }
+     ]
+    },
+    {
+     "shape_id": 24,
+     "name": "文本框 23",
+     "type": "TEXT_BOX (17)",
+     "geom": [
+      2.12,
+      2.12,
+      9.1,
+      4.08
+     ],
+     "text": "天津师范大学是天津市属重点院校，始建于1958年，原名天津师范学院，1982年更名为天津师范大学。1999年，原天津师范大学、天津师范高等专科学校、天津教育学院合并组建新天津师范大学。\n学校现有27个党政职能部门，2个学部，20个学院，17个直属单位。现有72个本科专业，8个博士学位授权一级学科，1个教育专业博士学位授权点，33个硕士学位授权一级学科，16个硕士专业学位类别，涉及经济学、法学、教育学、文学、历史学、理学、工学、管理学、艺术学等10个学科门类。",
+     "sizes": [
+      20.0
+     ],
+     "paras": 2,
+     "wrap": true
+    },
+    {
+     "shape_id": 26,
+     "name": "文本框 25",
+     "type": "TEXT_BOX (17)",
+     "geom": [
+      5.0,
+      0.95,
+      3.33,
+      0.57
+     ],
+     "text": "在此输入您的标题",
+     "sizes": [
+      28.0
+     ],
+     "paras": 1,
+     "wrap": true
+    },
+    {
+     "shape_id": 2,
+     "name": "文本占位符 1",
+     "type": "PLACEHOLDER (14)",
+     "geom": [
+      0.5,
+      0.16,
+      1.89,
+      0.37
+     ],
+     "ph": {
+      "idx": 11,
+      "type": "BODY (2)"
+     },
+     "text": "一段内容页",
+     "sizes": [],
+     "paras": 1,
+     "wrap": null
+    },
+    {
+     "shape_id": 7,
+     "name": "文本占位符 6",
+     "type": "PLACEHOLDER (14)",
+     "geom": [
+      0.05,
+      0.18,
+      0.27,
+      0.37
+     ],
+     "ph": {
+      "idx": 12,
+      "type": "BODY (2)"
+     },
+     "text": "1",
+     "sizes": [],
+     "paras": 1,
+     "wrap": null
+    },
+    {
+     "shape_id": 9,
+     "name": "文本占位符 8",
+     "type": "PLACEHOLDER (14)",
+     "geom": [
+      2.5,
+      0.2,
+      5.54,
+      0.37
+     ],
+     "ph": {
+      "idx": 13,
+      "type": "BODY (2)"
+     },
+     "text": "A CONTENT PAGE",
+     "sizes": [],
+     "paras": 1,
+     "wrap": null
+    },
+    {
+     "shape_id": 14,
+     "name": "图片 13",
+     "type": "PICTURE (13)",
+     "geom": [
+      11.34,
+      5.97,
+      2.15,
+      1.23
+     ]
+    }
+   ]
+  }
+ ]
+}

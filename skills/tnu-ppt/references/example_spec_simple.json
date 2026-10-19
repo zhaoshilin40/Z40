@@ -1,0 +1,111 @@
+{
+    "template":  "C:/Users/12806/Desktop/天津师范大学毕业论文汇报答辩通用ppt模板.pptx",
+    "output":  "D:/out/example_simple_out.pptx",
+    "keep":  [
+                 1,
+                 6,
+                 33
+             ],
+    "header":  {
+                   "33":  [
+                              "数据底座",
+                              "OPEN RESEARCH DATA",
+                              "1"
+                          ]
+               },
+    "widen_title":  {
+                        "33":  {
+                                   "sid":  26,
+                                   "size":  28,
+                                   "text":  "2021 年底，计量研究的数据底座换了一次"
+                               }
+                    },
+    "fill":  {
+                 "1":  {
+                           "ph:11":  {
+                                         "paras":  [
+                                                       "文献计量学的最新发展"
+                                                   ],
+                                         "size":  30,
+                                         "bold":  true
+                                     },
+                           "ph:12":  {
+                                         "paras":  [
+                                                       "数据基础设施、方法革新与评价治理"
+                                                   ],
+                                         "size":  18,
+                                         "bold":  false
+                                     },
+                           "19":  {
+                                      "paras":  [
+                                                    "勤奋严谨　自树树人"
+                                                ],
+                                      "size":  14
+                                  }
+                       },
+                 "6":  {
+                           "ph:11":  {
+                                         "paras":  [
+                                                       "数据基础设施换代"
+                                                   ],
+                                         "size":  24,
+                                         "bold":  true
+                                     },
+                           "ph:13":  {
+                                         "paras":  [
+                                                       "OPEN RESEARCH DATA"
+                                                   ],
+                                         "size":  11
+                                     },
+                           "ph:16":  {
+                                         "paras":  [
+                                                       "方法层换代"
+                                                   ],
+                                         "size":  24,
+                                         "bold":  true
+                                     },
+                           "ph:17":  {
+                                         "paras":  [
+                                                       "METHODOLOGY UPGRADE"
+                                                   ],
+                                         "size":  11
+                                     },
+                           "ph:18":  {
+                                         "paras":  [
+                                                       "颠覆指数之争"
+                                                   ],
+                                         "size":  24,
+                                         "bold":  true
+                                     },
+                           "ph:19":  {
+                                         "paras":  [
+                                                       "THE DISRUPTION DEBATE"
+                                                   ],
+                                         "size":  11
+                                     },
+                           "ph:14":  {
+                                         "paras":  [
+                                                       "评价与治理"
+                                                   ],
+                                         "size":  24,
+                                         "bold":  true
+                                     },
+                           "ph:15":  {
+                                         "paras":  [
+                                                       "ASSESSMENT AND GOVERNANCE"
+                                                   ],
+                                         "size":  11
+                                     }
+                       },
+                 "33":  {
+                            "24":  {
+                                       "paras":  [
+                                                     "开放科研数据基础设施的更替改变了计量研究的数据底座。2021 年底 Microsoft Academic Graph 停止服务，OpenAlex 承接其开放元数据，收录规模较前者扩大一个量级。",
+                                                     "数据可得性提高的同时，元数据完整性与机构消歧的责任由平台转移到使用者，这构成当前计量研究的主要方法学约束。"
+                                                 ],
+                                       "size":  18,
+                                       "spacing":  140
+                                   }
+                        }
+             }
+}
