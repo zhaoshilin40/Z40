@@ -162,8 +162,11 @@ def set_paras(shape, paras, size=None, bold=None, wrap=None, spacing=None,
                 pPr.insert(0, ln)
             for c in list(ln):
                 ln.remove(c)
+            # a:spcPct 的单位是千分之一百分比：150% == 150000。
+            # spacing 既可写倍数（1.5），也可写百分数（150），自动判别。
+            _mult = 100000 if float(spacing) <= 10 else 1000
             ln.append(ln.makeelement(qn("a:spcPct"),
-                                     {"val": str(int(round(spacing * 1000)))}))
+                                     {"val": str(int(round(float(spacing) * _mult)))}))
         txBody.append(p)
     return shape
 

@@ -52,7 +52,7 @@ python -X utf8 <skill>/scripts/tnu.py catalog <模板.pptx> --out <skill>/refere
   "keep":     [1, 6, 33],
   "header":   { "33": ["中文短名", "ENGLISH KICKER", "1"] },
   "widen_title": { "33": {"sid": 26, "size": 28, "text": "陈述句标题"} },
-  "fill":     { "33": { "24": {"paras": ["第一段", "第二段"], "size": 18, "spacing": 140} } },
+  "fill":     { "33": { "24": {"paras": ["第一段", "第二段"], "size": 18, "spacing": 1.5} } },
   "chart":    { "54": { "9": {"categories": ["2015","2024"], "series": {"期刊论文": [1.6, 2.3]}} } },
   "table":    { "57": { "20": {"rows": [["维度","A","B"], ["记录","1","2"]]} } },
   "drop":     { "37": [36, 38] },
@@ -64,6 +64,8 @@ python -X utf8 <skill>/scripts/tnu.py catalog <模板.pptx> --out <skill>/refere
 - 顶层键的**页号是模板页号**（1–62），不是成品页号。`keep` 决定成品顺序与取舍。
 - `fill` 的键是 `shape_id`，也可以写 `"ph:11"` 按**占位符 idx** 寻址。
 - 数值单位一律**英寸**。
+- spacing 是**行距倍数**（1.5 即 150%），不是百分数；写 1.5 而不是 150。
+
 - 不需要的键整个省略即可。
 
 ### shape_id 还是 ph:11
